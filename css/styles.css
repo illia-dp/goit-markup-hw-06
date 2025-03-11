@@ -8,6 +8,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -32,6 +33,7 @@ body {
 .nav-link {
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-decoration: none;
@@ -53,6 +55,7 @@ body {
 .address-link {
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
@@ -70,6 +73,7 @@ body {
 .main-title {
     font-weight: 700;
     font-size: 56px;
+    line-height: 107%;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -82,6 +86,7 @@ body {
     color:#ffffff;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
@@ -98,6 +103,7 @@ body {
 .list-title {
     font-weight: 500;
     font-size: 20px;
+    line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -105,6 +111,7 @@ body {
 .list-text {
     font-weight: 400;
     font-size: 16px;
+    line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -115,6 +122,7 @@ body {
 
 .second-title {
     font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
@@ -129,6 +137,7 @@ body {
 .team-names {
     font-weight: 500;
     font-size: 20px;
+    line-height: 120%;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -137,6 +146,7 @@ body {
 .team-text {
     font-weight: 400;
     font-size: 16px;
+    line-height: 150%;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
@@ -145,6 +155,7 @@ body {
 .portfolio-title {
     font-weight: 500;
     font-size: 20px;
+    line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -152,6 +163,7 @@ body {
 .portfolio-text {
     font-weight: 400;
     font-size: 16px;
+    line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -164,6 +176,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
+    line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -177,6 +190,7 @@ body {
 .footer-text {
     font-weight: 400;
     font-size: 16px;
+    line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
