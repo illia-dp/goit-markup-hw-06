@@ -24,6 +24,12 @@ body {
     list-style-type: none;
 }
 
+
+.nav-items:hover,
+.nav-items:focus {
+    color: #404bbf;
+}
+
 .nav-link {
     font-weight: 500;
     font-size: 16px;
@@ -33,7 +39,8 @@ body {
     text-decoration: none;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
     color: #4D5AE5;
 }
 
@@ -41,8 +48,11 @@ body {
     list-style-type: none;
 }
 
-.address-link {
+.address {
     font-style: normal;
+}
+
+.address-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -174,7 +184,7 @@ body {
     color: #4d5ae5;
 }
 
-.footer-logo-2 {
+.footer-logo-color {
     color:#f4f4fd;
 }
 
