@@ -24,12 +24,6 @@ body {
     list-style-type: none;
 }
 
-
-.nav-items:hover,
-.nav-items:focus {
-    color: #404bbf;
-}
-
 .nav-link {
     font-weight: 500;
     font-size: 16px;
@@ -41,7 +35,7 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .address-items {
@@ -63,7 +57,7 @@ body {
 
 .address-link:hover,
 .address-link:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .first-section {
