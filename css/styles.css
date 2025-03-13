@@ -60,11 +60,6 @@ body {
 
 /* Flex to header */
 
-.header {
-    background-color: var(--white);
-    border-bottom: 1px solid var(--cornflower);
-}
-
 .header-content {
     display: flex;
     align-items: center;
@@ -80,17 +75,20 @@ body {
     display:flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .address-list {
     display: flex;
     align-items: center;
-    gap: 40px;
-    
+    gap: 40px; 
 }
 
 /* Header */
+
+.header {
+    background-color: var(--white);
+    border-bottom: 1px solid var(--cornflower);
+}
 
 .nav-logo {
     font-family: "Raleway", sans-serif;
@@ -114,6 +112,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .nav-link:hover,
