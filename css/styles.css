@@ -67,7 +67,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 0;
 }
 
 .nav {
@@ -79,6 +78,7 @@ body {
     display:flex;
     align-items: center;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .address-list {
