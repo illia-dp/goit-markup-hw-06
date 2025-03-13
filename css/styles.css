@@ -72,13 +72,13 @@ body {
 .nav {
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 
 .nav-list {
     display:flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .address-list {
@@ -190,6 +190,8 @@ body {
     margin: -1px;
     border: 0;
     padding: 0;
+
+    white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
@@ -218,13 +220,13 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .list-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
-    margin-top: 8px;
 }
 
 /* Section our Team */
