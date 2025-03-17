@@ -324,8 +324,11 @@ body {
 }
 
 .team-social-link {
-    display: inline-block;
-    padding: 12px;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     background-color: var(--iris);
     transition: background-color var(--animation);
@@ -333,6 +336,7 @@ body {
 
 .team-social-icon {
     display: block;
+    fill: var(--cloud);
 }
 
 .team-social-link:hover,
@@ -462,7 +466,7 @@ body {
 
 .social-item {
     display: block;
-    fill: var(--cloud)
+    fill: var(--cloud);
 }
 
 .social-title {
