@@ -165,10 +165,11 @@ body {
 /* Hero */
 
 .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 1440px;
+    max-width: 1440px;
+    background-size: cover;
     background-color: var(--navy-blue);
     margin-left: auto;
     margin-right: auto;
@@ -231,13 +232,15 @@ body {
 }
 
 .icon-futures-container {
-    padding: 24px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    padding: 24px;
     border: 1px solid var(--light-slate);
     border-radius: 4px;
     background-color: var(--cloud);
     margin-bottom: 8px;
-    display: block;
-    justify-self: center;
 }
 
 .futures-list-section {
@@ -317,6 +320,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 24px;
 }
 
 .team-social-link {
@@ -325,10 +329,6 @@ body {
     border-radius: 50%;
     background-color: var(--iris);
     transition: background-color var(--animation);
-}
-
-.team-social-item:not(:last-child) {
-    margin-right: 24px;
 }
 
 .team-social-icon {
@@ -424,7 +424,11 @@ body {
 
 .container.footer-container {
     display: flex;
-    column-gap: 120px;
+    align-items: baseline;
+}
+
+.logo-and-text {
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -453,10 +457,12 @@ body {
 
 .footer-social-list {
     display: flex;
+    gap: 16px;
 }
 
 .social-item {
     display: block;
+    fill: var(--cloud)
 }
 
 .social-title {
@@ -469,15 +475,14 @@ body {
 }
 
 .footer-social-link {
-    display: inline-block;
-    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
     background-color: var(--iris);
     border-radius: 50%;
     transition: background-color var(--animation);
-}
-
-.footer-social-item:not(:last-child) {
-    margin-right: 16px;
 }
 
 .footer-social-link:hover,
