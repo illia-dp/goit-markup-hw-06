@@ -646,11 +646,25 @@
               ></textarea>
             </div>
           </fieldset>
-          <label> <input type="checkbox" name="privacy" required /></label>
-          <p>
-            I accept the terms and conditions of the
-            <a href="#" class="privacy-link">Privacy Policy</a>
-          </p>
+          <div class="checkbox-field">
+            <input
+              class="checkbox visually-hidden"
+              type="checkbox"
+              name="privacy"
+              id="privacy"
+              value="privacy"
+              required
+            />
+            <label class="privacy-label" for="privacy">
+              <span class="custom-checkbox">
+                <svg class="custom-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="#" class="privacy-link">Privacy Policy</a>
+            </label>
+          </div>
           <button type="submit" class="send-button">Send</button>
         </form>
       </div>

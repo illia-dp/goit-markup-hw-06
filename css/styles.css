@@ -662,13 +662,6 @@ body {
     margin-bottom: 8px;
 }
 
-.privacy-link {
-    line-height: 1.33;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: var(--iris);
-}
-
 .send-button {
     font-family: "Roboto", sans-serif;
     background-color: var(--iris);
@@ -708,4 +701,41 @@ body {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--navy-blue-modal);
+}
+
+/* Privacy */
+
+.privacy-label {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--light-slate);
+}
+
+.privacy-link {
+    line-height: 1.33;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--iris);
+}
+
+.custom-checkbox {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid var(--navy-blue-modal);
+    fill: transparent;
+    margin-right: 8px;
+    margin-bottom: 24px;
+}
+
+.checkbox:checked + .privacy-label > .custom-checkbox {
+    fill: var(--cloud);
+    background-color: var(--ocean);
+    border: 1px solid var(--ocean);
 }
