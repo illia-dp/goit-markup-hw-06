@@ -790,7 +790,7 @@ body {
 .checkbox:checked + .privacy-label > .custom-checkbox {
     fill: var(--cloud);
     background-color: var(--ocean);
-    border: 1px solid var(--ocean);
+    border: none;
 }
 
 /* Modal Send button */
