@@ -575,6 +575,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color var(--animation);
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+    background-color: var(--ocean);
 }
 
 .subscribe-icon {
@@ -813,6 +819,10 @@ body {
     border: none;
     cursor: pointer;
     margin: auto;
-    
     transition: background-color var(--animation)
+}
+
+.send-button:hover,
+.send-button:focus {
+    background-color: var(--ocean);
 }
