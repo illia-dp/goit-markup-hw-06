@@ -809,9 +809,6 @@ body {
     border: none;
     cursor: pointer;
     margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     
     transition: background-color var(--animation)
 }
