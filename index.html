@@ -576,7 +576,7 @@
       </div>
     </footer>
     <!-- Modal window -->
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay">
       <div class="modal">
         <button class="close-icon-button" type="button">
           <svg width="8" height="8" class="close-icon">
@@ -674,5 +674,18 @@
         </form>
       </div>
     </div>
+
+    <script>
+      // Close modal
+      document
+        .querySelector(".close-icon-button")
+        .addEventListener("click", () => {
+          document.querySelector(".modal-overlay").classList.remove("is-open");
+        });
+      // Open modal
+      document.querySelector(".button").addEventListener("click", () => {
+        document.querySelector(".modal-overlay").classList.add("is-open");
+      });
+    </script>
   </body>
 </html>
