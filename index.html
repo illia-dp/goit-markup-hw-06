@@ -578,7 +578,7 @@
     <!-- Modal window -->
     <div class="modal-overlay is-open">
       <div class="modal">
-        <button class="close-icon-button" type="submit">
+        <button class="close-icon-button" type="button">
           <svg width="8" height="8" class="close-icon">
             <use href="./images/icons.svg#close-black"></use>
           </svg>
@@ -640,17 +640,15 @@
           </div>
 
           <div class="form-field-wrapper">
-            <label class="review-label" for="comment">Comment </label>
-            <div class="form-input-wrapper">
-              <textarea
-                class="user-comment"
-                name="comment"
-                rows="6"
-                placeholder="Text input"
-                id="comment"
-                required
-              ></textarea>
-            </div>
+            <label class="review-label" for="user-comment">Comment </label>
+            <textarea
+              class="user-comment"
+              name="comment"
+              rows="6"
+              placeholder="Text input"
+              id="user-comment"
+              required
+            ></textarea>
           </div>
 
           <div class="checkbox-field">
