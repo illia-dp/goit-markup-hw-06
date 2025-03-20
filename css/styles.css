@@ -719,6 +719,8 @@ body {
     fill: var(--iris);
 }
 
+/* User comment */
+
 .user-comment {
     border: 1px solid var(--navy-blue-modal);
     border-radius: 4px;
@@ -753,7 +755,7 @@ body {
 /* Privacy checkbox */
 
 .checkbox-field {
-    margin-bottom: 24px;
+    margin-bottom: 24px ;
 }
 
 .privacy-label {
@@ -781,7 +783,8 @@ body {
     border-radius: 2px;
     border: 1px solid var(--navy-blue-modal);
     fill: transparent;
-    margin-right: 8px;s
+    margin-right: 8px;
+    transition: background-color var(--animation), border var(--animation), fill var(--animation);
 }
 
 .checkbox:checked + .privacy-label > .custom-checkbox {
@@ -809,5 +812,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
     transition: background-color var(--animation)
 }
