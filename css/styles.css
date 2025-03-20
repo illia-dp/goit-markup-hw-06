@@ -643,7 +643,7 @@ body {
     transition: fill var(--animation);
 }
 
-.close-icon-button:hover, {
+.close-icon-button:hover {
     background-color: var(--ocean);
     border: none;
     fill: var(--white);
@@ -723,8 +723,10 @@ body {
     height: 120px;
 
     font-weight: 400;
-    font-size: 12px;    
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.04em;
+    color: var(--navy-blue-modal);
     background-color: transparent;
 
     resize: none;
