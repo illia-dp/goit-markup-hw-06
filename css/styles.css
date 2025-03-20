@@ -668,7 +668,7 @@ body {
 /* Modal Form */
 
 .form-field-wrapper {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .review-label {
@@ -752,6 +752,10 @@ body {
 
 /* Privacy checkbox */
 
+.checkbox-field {
+    margin-bottom: 24px;
+}
+
 .privacy-label {
     font-weight: 400;
     font-size: 12px;
@@ -777,8 +781,7 @@ body {
     border-radius: 2px;
     border: 1px solid var(--navy-blue-modal);
     fill: transparent;
-    margin-right: 8px;
-    margin-bottom: 24px;
+    margin-right: 8px;s
 }
 
 .checkbox:checked + .privacy-label > .custom-checkbox {
