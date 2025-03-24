@@ -184,6 +184,10 @@
         padding-left: 92px;
     }
 
+    .footer-logo {
+        text-align: start;
+    }
+
     .social-title {
         text-align: start;
     }
@@ -212,6 +216,7 @@
     .container.footer-container {
         column-gap: 0;
         row-gap: 0;
+        padding-left: 0;
     }
 
     .logo-and-text {
