@@ -125,6 +125,4 @@
         transform: translateY(100%);
         transition: transform var(--animation);
     }
-    
-
 }
