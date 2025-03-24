@@ -113,6 +113,11 @@
     transition: color var(--animation);
 }
 
+.mobile-menu-address-link:hover,
+.mobile-menu-address-link:focus {
+    color: var(--iris);
+}
+
 .mobile-menu-social-list {
     display: flex;
     gap: 40px;
