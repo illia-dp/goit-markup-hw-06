@@ -173,9 +173,6 @@
 /* Tablet */
 
 @media screen and (min-width: 768px) {
-    .footer {
-        padding-left: 92px;
-    }
 
     .container.footer-container {
         display: flex;
@@ -184,6 +181,7 @@
         align-items: baseline;
         column-gap: 24px;
         row-gap: 72px;
+        padding-left: 92px;
     }
 
     .social-title {
