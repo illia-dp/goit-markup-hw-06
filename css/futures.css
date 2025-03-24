@@ -1,0 +1,115 @@
+/* Colors */
+
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+    --grey: rgba(46, 47, 66, 0.7);
+    --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+}
+
+/* Section Our Futures */
+/* Mobile */
+
+.icon-futures-container {
+    display: none;
+}
+
+.futures-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 72px;
+}
+
+.list-items {
+    list-style-type: none;
+    display: block;
+}
+
+.list-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+    margin-bottom: 8px;
+}
+
+.list-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+
+    .futures-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .list-items {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .list-title {
+        text-align: start;
+    }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1158px) {
+
+    .futures-list-section {
+        padding-top: 120px;
+    }
+
+    .icon-futures-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        border: 1px solid var(--light-slate);
+        border-radius: 4px;
+        background-color: var(--cloud);
+        margin-bottom: 8px;
+    }
+
+    .futures-list {
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .list-items {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .list-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .list-text {
+        font-weight: 400;
+    }
+}
